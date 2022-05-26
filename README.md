@@ -20,6 +20,8 @@ python manage.py createsuperuser
 <br/>
 After running the above command and creating the credentials, you can use the same credentials for logging in.<br/>
 
-## Live Video of Attendance System
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f85e9d79911fea9708ba0a98ef975a55f8dd31f
