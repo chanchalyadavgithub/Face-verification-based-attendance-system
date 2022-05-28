@@ -1,6 +1,6 @@
 # Face Verification Based Attendance System
 ## About
-In this Attendance System the attendance for students is marked using Face verification. The Faculty has the permission to take Attendance, add a student, modify student details. The Faculty can also search for attendance of a student using Multiparameter Search, by specifying the student ID, date of attendance, period of Attendance.<br>
+In this Attendance System the attendance for students is marked using Face verification. The admin has permission to take Attendance, add a student, modify student details. The Faculty can also search for attendance of a student using Multiparameter Search, by searching the student ID, date of attendance, period of Attendance. We can also sort students on the basis of their present or absent status.<br>
 The credentials for the Faculty are provided by the superuser who has access to the whole database. Only the superuser can update the attendance of a student.<br>
 **Django** web framework was used for the development of the whole web app. **OpenCv and face_recognition API's** were used for the development of Face Recognizer. The Face Recognizer can detect multiple faces at a time and mark their attendance into Database.<br>
 **Note: Python version 3.6 was used for this project. And the dlib package required for installation of face_recognition api is also uploaded.**<br>
@@ -21,7 +21,3 @@ python manage.py createsuperuser
 After running the above command and creating the credentials, you can use the same credentials for logging in.<br/>
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9f85e9d79911fea9708ba0a98ef975a55f8dd31f

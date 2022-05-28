@@ -12,10 +12,24 @@ def user_directory_path(instance, filename):
 class Faculty(models.Model):
 
     user = models.OneToOneField(User, null = True, blank = True, on_delete= models.CASCADE)
-    firstname = models.CharField(max_length=200, null=True, blank=True)
-    lastname = models.CharField(max_length=200, null=True, blank=True)
-    phone = models.CharField(max_length=200, null=True)
-    email = models.CharField(max_length=200, null=True)
+    firstname = models.CharField(
+                            null=True,
+                            max_length=310,
+                            blank=True
+                        )
+    lastname = models.CharField(
+                            null=True,
+                            max_length=310,
+                            blank=True
+                        )
+    phone = models.CharField(
+                            null=True,
+                            max_length=310
+                        )
+    email = models.CharField(
+                            null=True,
+                            max_length=310
+                        )
     profile_pic = models.ImageField(upload_to=user_directory_path ,null=True, blank=True)
 
     def __str__(self):
